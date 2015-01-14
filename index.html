@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Chat</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/custom.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/javascripts/helpers.js"> </script>
+  <script src="/javascripts/socket.js"> </script>
+</head>
+<body>
+
+  <div class="container">
+    <div id="chat">
+      <div class="row">
+        <div class="col-md-12">
+           <div class="panel panel-default">
+           <div class="panel-heading">Simple Chat</div>
+            <div class="panel-body">
+              <ul class="messages">
+              </ul>
+            </div>
+            <div class="panel-footer">
+              <form id="chat_form">
+                <div class="form-group message-box">
+                  <input type="message" class="form-control" id="chat_input" placeholder="Enter message">
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+#chat {
+  margin-top: 20%;
+}
+
+html,body{
+  height: 100%;
+}
+
+.message-box {
+  padding: 0;
+  margin: 0;
+}
+
+.panel-footer {
+  padding: 0;
+}
+
+.panel-body {
+  min-height: 500px;
+  max-height: 500px;  
+  overflow: auto;
+}
+
+.panel-heading {
+  font-size: 1.5em;
+}
+
+/*Messages*/
+.messages {
+  list-style-type: none;
+}
+
